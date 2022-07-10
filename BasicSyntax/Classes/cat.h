@@ -1,16 +1,18 @@
+/*
+ * Cat.h
+ *
+ *  Created on: 28 Jun 2014
+ *      Author: johnwpurcell
+ */
 
-#ifndef CAT_H_INCLUDED
-#define CAT_H_INCLUDED
+#ifndef CAT_H_
+#define CAT_H_
 
-
-
-class Cat
-{
+class Cat {
 public:
-    void speak();
-    void jump();
-
+	void speak();
+	void jump();
 };
 
 
-#endif // CAT_H_INCLUDED
+#endif /* CAT_H_ */
